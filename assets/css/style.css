@@ -1,0 +1,30 @@
+.frm_kiflayn_learndash input[type="text"], .frm_kiflayn_learndash input[type="email"], .frm_kiflayn_learndash input[type="password"], .frm_kiflayn_learndash select, .frm_kiflayn_learndash textarea {width: 90%;}
+.frm_kiflayn_learndash textarea{height: 150px;}
+.frm_kiflayn_learndash td{vertical-align: top;}
+.kiflayn_learndash_alert_box{padding: 10px 20px !important;font-weight: 600;margin: 5px 0 15px !important;background: #fff !important;border-left: 4px solid #fff !important;box-shadow: 0 1px 1px 0 rgba(0,0,0,.1) !important;}
+.kiflayn_learndash_alert_message{border-left-color: #46b450 !important;}
+.kiflayn_learndash_alert_error{border-left-color: #CC0000 !important;}
+.kiflayn_learndash_alert_warning{border-left-color: #e6db55 !important;}
+ul.kiflayn_learndash_pagination {display:block; text-align:center; font-size: 14px; margin: 20px 0px;}	
+ul.kiflayn_learndash_pagination > li {display:inline-block;}	
+ul.kiflayn_learndash_pagination > li > a, ul.kiflayn_learndash_pagination > li > span, ul.kiflayn_learndash_pagination > li > span.spacer { display:inline-block; margin:2px 0.5px; text-decoration:none; padding:4px; border-radius:5px;}
+.kiflayn_learndash_hidden, .kiflayn_learndash_course{display: none;}
+.kiflayn_learndash_ajax_loader,
+.kiflayn_learndash_ajax_loader_teacher{
+    background: url( ../images/ajax-loader.gif ) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin: 10px 0px;
+    display: none;
+}
+.kiflayn_learndash_join_url_container .wp-block-button{
+    margin:40px 0px !important;
+}
+.kiflayn_learndash_join_url_container a{
+    padding: 20px;
+    border-radius: 40px;
+}
+.ld_lms_course ul li{
+    display: inline-block;
+    width: 50%;
+}
